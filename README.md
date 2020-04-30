@@ -7,9 +7,9 @@
     Easy-README-Generator
 #### Description:
     The difference between a great project and an ok project often lies in the README. The Markdown is often the
-    first thing people are drawn toward. But a good README takes time and effort away from the developer. With this
-    app, answer a few questions using the inquirer npm and a auto-generated markdown is returned. Stop taking time 
-    writing markdowns and spend more time writing code!
+    first thing people are drawn toward. But a good README takes time and effort away from the developer. With 
+    this app, answer a few questions using the inquirer npm and a auto-generated markdown is returned. Stop 
+    taking time writing markdowns and spend more time writing code!
 #### Table of Contents:
         -Installation
         -Usage
