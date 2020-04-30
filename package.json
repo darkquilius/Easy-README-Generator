@@ -1,0 +1,31 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generate a README.md using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Reeves",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkquilius/Easy-README-Generator.git"
+  },
+  "keywords": [
+    "node",
+    "README.md",
+    "dotenv",
+    "util",
+    "axios"
+  ],
+  "bugs": {
+    "url": "https://github.com/darkquilius/Easy-README-Generator/issues"
+  },
+  "homepage": "https://github.com/darkquilius/Easy-README-Generator#readme"
+}
