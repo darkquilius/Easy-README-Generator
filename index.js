@@ -1,14 +1,19 @@
 const axios = require("axios");
 const inquirer = require("inquirer");
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 const fs = require("fs");
-const util = require("util")
+// const util = require("util")
 
 
 const questions = [{
         type: "input",
         message: "What is your user name?",
         name: "username"
+    },
+    {
+        type: "input",
+        message: "What is your preferred contact email?",
+        name: "email"
     },
     {
         type: "input",
@@ -61,10 +66,8 @@ function getInfo(answers) {
 
 function generateHTML(answers, data) {
     return `![user picture](${data.data.avatar_url})
-
 #### User Email: 
-    email@email.com
-
+    ${answers.email}
 #### Title: 
     ${answers.projectTitle}
 #### Description:
@@ -76,8 +79,6 @@ function generateHTML(answers, data) {
         -Contributors
         -Tests
         -Questions
-
-
 #### Installation:
     ${answers.install}
 #### Usage:
@@ -89,8 +90,7 @@ function generateHTML(answers, data) {
 #### Tests:
     ${answers.test}
 #### Questions:
-    If any questions persist, please direct them to my email: email@email.com
-
+    If any questions persist, please direct them to my email: ${answers.email}
 ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)`
 }
 
