@@ -2,14 +2,11 @@
 
 #### User Email: 
     andrew.reeves.coding.bootcamp@gmail.com
-
+    
 #### Title: 
     Easy-README-Generator
 #### Description:
-    The difference between a great project and an ok project often lies in the README. The Markdown is often the
-    first thing people are drawn toward. But a good README takes time and effort away from the developer. With 
-    this app, answer a few questions using the inquirer npm and a auto-generated markdown is returned. Stop 
-    taking time writing markdowns and spend more time writing code!
+    The difference between a great project and an ok project often lies in the README. The Markdown is often the first thing people are drawn toward. But a good README takes time and effort away from the developer. With this app, answer a few questions using the inquirer npm and an auto-generated markdown is returned. Stop taking time writing markdowns and spend more time writing code!
 #### Table of Contents:
         -Installation
         -Usage
@@ -17,8 +14,7 @@
         -Contributors
         -Tests
         -Questions
-
-
+        
 #### Installation:
     axios npm, inquirer npm, dotenv npm
 #### Usage:
@@ -30,6 +26,6 @@
 #### Tests:
     none
 #### Questions:
-    If any questions persist, please direct them to my email! Thank you!
-
+    If any questions persist, please direct them to my email: andrew.reeves.coding.bootcamp@gmail.com
+    
 ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
